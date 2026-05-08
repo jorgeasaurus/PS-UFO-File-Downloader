@@ -69,6 +69,27 @@ Each folder contains:
 - `download-errors.txt` if any linked downloads failed.
 - `.url` files for failed links.
 
+Example downloaded record:
+
+![NASA-UAP-VM3, Apollo 12, 1969](media/apollo-12-1969.jpg)
+
+```text
+Redaction:
+Release Date: 5/8/26
+Title: NASA-UAP-VM3, Apollo 12, 1969
+Type: IMG
+Video Pairing:
+PDF Pairing:
+Description Blurb: This archival photograph depicts the lunar surface as viewed from the landing site of Apollo 12. This image features a highlighted area of interest near the right edge of the frame, above the horizon, in which unidentified phenomena are visible. This image has been modified from its original state to assist viewers in identifying specific areas of interest. These highlights are provided for contextual purposes only. Such alterations do not constitute an analytical judgment, investigative conclusion, or factual determination regarding the nature or significance of the subject matter.
+DVIDS Video ID:
+Video Title:
+Agency: NASA
+Incident Date: 1969
+Incident Location: Moon
+PDF | Image Link: https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg
+Modal Image: https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-vm3-apollo-12-1969.jpg
+```
+
 ## Options
 
 | Parameter | Description |
