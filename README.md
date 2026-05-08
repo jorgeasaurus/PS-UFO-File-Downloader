@@ -14,6 +14,8 @@ The script:
 - Prints record and file download progress to the console.
 - Logs failed downloads without stopping the whole run.
 
+![Terminal output showing script download progress](media/script-progress-output.png)
+
 ## Recommended usage
 
 If you already have the CSV locally:
