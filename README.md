@@ -30,6 +30,22 @@ If you want the script to download the CSV first:
 
 `-PrimeSession` visits `https://www.war.gov/UFO/` before downloading files. Any cookies issued by that page are reused by the same `WebRequestSession` for the CSV and file downloads.
 
+## How this script was created
+
+The war.gov UFO page loads its records from a CSV file. I used the browser developer tools Network tab to inspect the page traffic and identify the CSV request:
+
+![Browser Network tab showing the UFO CSV request](media/browser-network-csv.png)
+
+The selected request showed that the page was reading:
+
+```text
+https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-csv.csv
+```
+
+![CSV request details showing the request URL and status](media/csv-request-details.png)
+
+Once the CSV endpoint was identified, the script could read that CSV directly, extract the linked `/medialink/` and `/Portals/` file URLs from each row, and download those files into folders named from the CSV record titles.
+
 ## Output
 
 By default, files are written to:
