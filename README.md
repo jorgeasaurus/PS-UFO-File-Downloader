@@ -1,4 +1,4 @@
-# UFO File Downloader
+# War.Gov Declassified UFO File Downloader
 
 `DownloadUFOFiles.ps1` downloads UFO files listed in the war.gov UFO CSV and organizes them into per-record folders.
 
